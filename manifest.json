@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Quiz Extractor",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "icon.png"
+      }
+    },
+    "permissions": ["scripting", "tabs", "activeTab"],
+    "icons": {
+      "48": "icon.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+}
+  
